@@ -30,9 +30,9 @@ if (happinessindex < pompomhappinessgrowing.length){
     clickSound.play();
 
     happinessindex = happinessindex + 1;
-}   else if (happinessindex == pompomhappinessgrowing.length){
-    tekst.textContent = "pompom is happy"}
-
+} else if (happinessindex == pompomhappinessgrowing.length){
+    happinessText.textContent = "pompom is happy"}
+    alert("PomPom is fully happy, thank you!");
 }
 
 hereforyouButton.addEventListener('click', growinghappiness);
